@@ -1,0 +1,4 @@
+show "Hello, Snake!"
+
+let name = "world"
+show "Hello, ${name}!"

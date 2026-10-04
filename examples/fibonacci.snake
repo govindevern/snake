@@ -1,0 +1,11 @@
+to fibonacci(n) do
+    if n < 2 then
+        give n
+    else
+        give fibonacci(n - 1) + fibonacci(n - 2)
+    end
+end
+
+for number in range(8) do
+    show fibonacci(number)
+end

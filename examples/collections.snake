@@ -1,0 +1,8 @@
+let colors = ["copper", "jade", "indigo"]
+list.push(colors, "silver")
+
+for color in colors do
+    show text.upper(color)
+end
+
+show colors[1]
